@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riferpord_test/Core/models/box_info_task.dart';
 import 'package:riferpord_test/Core/providers/add_task.dart';
 import 'package:riferpord_test/Core/widgets/add_task_widgrt.dart';
 import 'package:riferpord_test/Core/widgets/box_info_task.dart';
@@ -36,7 +35,7 @@ class _HomePageState extends ConsumerState<HomePage> {
               ),
               // what's up, Jou
               CustomText(
-                text: 'what\'s up, Jou!',
+                text: 'what\'s up, Mohammed!',
                 color: Colors.indigo.shade900,
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
