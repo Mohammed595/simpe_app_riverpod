@@ -12,7 +12,7 @@ class TaskWidget extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, ref) {
-    final typeTask = ref.watch(fistProvider.notifier).currentType;
+    // final typeTask = ref.watch(fistProvider.notifier).currentType;
     return Container(
       height: 70,
       padding: EdgeInsets.only(top: 10, left: 15, bottom: 10, right: 10),
